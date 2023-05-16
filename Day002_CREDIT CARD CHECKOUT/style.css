@@ -1,0 +1,350 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+body{
+    /* width: 100%;
+    height: 100vh; */
+    width: 1920px;
+    height: 1080px;
+    background: #00748D;
+    /* display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* .logo{
+    display: block;
+} */
+
+.logo-img{
+    width: 96px;
+    height: 60px;
+    margin: 48px 0px 0px 82px;
+}
+
+.border-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: #F9F9F9;
+    opacity: 0.9;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1439px;
+    height: 865px;
+}
+
+.credit-card-left{
+    width: 472px;
+    /* background: #2ed24f; */
+    height: 716px;
+    /* margin-left: 147px; */
+}
+
+.credit-card-right{
+    width: 582px;
+    height: 695px;
+    /* background: #a0186a; */
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit-card{
+    width: 1144px;
+    height: 716px;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img{
+    width: 470px;
+    height: 612px;
+    /* background: #a3c2c9; */
+}
+
+.img{
+    width: 470px;
+    height: 612px;
+}
+
+.info-img{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #00748D;
+    margin-top: 12px;
+    
+}
+
+.price-img{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 4px;
+}
+
+.payment{
+    width: 433px;
+    height: 634px;
+    /* background: #2ed24f; */
+}
+
+.btn-methods{
+    display: flex;
+}
+
+.input-number{
+    display: flex;
+    justify-content: space-between;
+}
+
+h6{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #00748D;
+}
+
+.btn-methods{
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-creditCard{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+    width: 131.24px;
+    height: 48px;
+    background: #327A8A;
+    opacity: 0.8;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.btn-vnpay, .btn-momo{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #00748D;
+
+    width: 131.24px;
+    height: 48px;
+    opacity: 0.4;
+    border: 1px solid #00748D;
+    border-radius: 30px;
+}
+
+.choose-bank-card{
+    margin-top: 28px;
+}
+
+.input-number input{
+    width: 98.99px;
+    height: 57px;
+    background: rgba(217, 217, 217, 1);
+
+}
+
+h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00748D;
+}
+
+
+.gr-cardnumber{
+    display: flex;
+    flex-flow: column;
+}
+
+.gr-Expdate-Cvv{
+    display: flex;
+}
+
+.gr-card label{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #00748D;
+}
+
+#input-cardnumber, #input-nameoncard{
+    width: 431.54px;
+    height: 55px;
+    border: 1px solid rgba(0, 116, 141, 0.3);
+    border-radius: 15px;
+    padding-left: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.gr-Expdate-Cvv{
+    display: flex;
+    justify-content: space-between;
+}
+
+#input-expdate{
+    width: 238.01px;
+    height: 55px;
+    border: 1px solid rgba(0, 116, 141, 0.3);
+    padding-left: 20px;
+    border-radius: 15px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#input-cvv{
+    width: 172.39px;
+    height: 55px;
+    border: 1px solid rgba(0, 116, 141, 0.3);
+    padding-left: 20px;
+    border-radius: 15px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+h5{
+    margin-top: 26px;
+}
+
+.gr-cardnumber{
+    margin-top: 28px;
+}
+
+.gr-nameoncard, .gr-Expdate-Cvv{
+    margin-top: 19px;
+}
+
+.btn-confirmOrder{
+    width: 433px;
+    height: 77px;
+    background: #00748D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin-top: 27px;
+
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.signagain{
+    display: flex;
+    position: absolute;
+    top: 926px;
+    left: 1135px;
+}
+
+.text1{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.text2{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #00748D;
+    margin-left: 2px;
+}
